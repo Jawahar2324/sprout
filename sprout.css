@@ -1,0 +1,1257 @@
+
+/* @media screen and (min-width:1200px) and (max-width:1900px){} */
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: olive;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}
+.header button{
+    padding: 5px;
+    width: 75px;
+    margin-left: 10px;
+    background-color:olive;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.header button:hover{
+      background-color:darkolivegreen;
+}
+
+.Banner{
+    background-image: url("./bg-1.webp");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    padding:0px 30px 300px 30px;
+}
+.Banner .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.Banner .navbar .left-bar{
+    display: flex;
+    list-style-type: none;
+    border: 1px solid gray;
+    background-color: transparent; 
+   
+    color: white;
+    padding: 0px;
+    justify-content: space-around;
+   
+}
+.Banner .navbar .left-bar li{
+    padding: 5px 15px;
+}
+.Banner .navbar .left-bar li:hover{
+    background-color:chocolate;
+    cursor: pointer;
+}
+.Banner .navbar .mainlogo-image{
+    width: 60px;
+    height:80px;
+}
+ .Banner .navbar .right-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Banner .navbar  .right-bar .login button{
+justify-content: space-evenly;
+display: flex;
+background-color: transparent;
+color: white;
+padding: 5px 15px 5px 15px;
+border: 1px solid grey;
+border-radius: 5px;
+}
+.Banner .navbar .right-bar .search{
+    margin-left: 10px;
+    background-color: transparent;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    }
+    .Banner .navbar .right-bar .search:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    } 
+    ::placeholder{
+        color: white;
+    }
+.Banner .navbar .right-bar .cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+    color: white;
+}
+.Banner .navbar .right-bar .cart p{
+ margin-left: 10px;
+}
+.Banner .mainheading h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.Banner .mainheading h3{
+    text-align: center;
+    color: white;
+}
+.Banner .mainheading .btn{
+    text-align: center;
+}
+
+.Banner .mainheading .shopplants-button{
+   padding: 15px;
+   text-align: center;
+   background-color: transparent;
+   border: 1px solid white;
+   border-radius: 5px;
+   color: white;
+}
+.Banner .mainheading .shopplants-button:hover{
+    background-color: black;
+}
+/* .Sction-1 Done */
+
+.section-2{
+    background-color:lightgray;
+    padding-bottom: 100px;
+    padding: 0px 30px 0px 30px;
+}
+.section-2 .heading-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+.section-2 .heading-2 h1{
+    font-size: 60px;
+}
+.section-2 .heading-2 button{
+    width: 120px;
+    height: 50px;
+    background-color:chocolate;
+    color: white;
+    border:2px solid chocolate;
+    border-radius: 8px;
+}
+.section-2 .heading-2 button:hover{
+    background-color:darkolivegreen;
+    border: 2px solid darkolivegreen;
+
+}
+.section-2 .selling{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-2 .selling .image-1  { 
+    width: 300px;
+    height: 400px;
+}
+.section-2 .selling .image-1:hover{
+content: url("./main-1\(flip\).png");
+}
+.section-2 .selling .image-2{
+    width: 300px;
+    height: 400px;
+}
+.section-2 .selling .image-2:hover{
+    content: url("./main-2\(flip\).png");
+}
+.section-2 .selling .image-3{
+    width: 300px;
+    height: 400px;
+}
+.section-2 .selling .image-3:hover{
+    content: url("./main-3\(flip\).png");
+}
+.section-2 .selling .image-4{
+    width: 300px;
+    height: 400px;
+}
+.section-2 .selling .image-4:hover{
+    content: url("./main-4\(flip\).png");
+}
+.section-2 .selling .image-top{
+    position: relative;
+}
+.section-2 .selling .image-top .name-on-image{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    padding:2px 10px;
+    border: 1px solid olive;
+    background-color:darkolivegreen;
+    color: white;
+    font-size: 12px;
+}
+.section-2 .selling .image-top p{
+    font-size: 20px;
+}
+.section-2 .selling .image-top button{
+    padding: 10px 110px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: lightgray;
+}
+.section-2 .selling .image-top button:hover{
+    color: grey;
+}
+/* .section-2 done */
+.images{
+    display: flex;
+    /* overflow: hidden; */
+    width: 1100px;
+    height: 704px;
+}
+.images .big-images .bigone{
+    width: 1100px;
+    height: 704px;
+    opacity: 0.5;
+    transition: transform 5s;
+    /* overflow: hidden; */
+}
+.images .big-images{
+    position: relative;
+}
+.transperant-text-one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+}
+
+.images .big-images .bigone:hover{
+     opacity: 1;
+     /* transform: scale(1.3); */
+
+}
+.images .small-images .small-1{
+    width: 400px;
+    height: 350px;
+    opacity: 0.2;
+    padding: 0px 2px 0px 2px;
+    transition: transform 2s;
+}
+.images .small-images .small-1:hover{
+    opacity: 1;
+    /* transform: scale(1.3); */
+}
+.images .small-images .small-2{
+    width: 400px;
+    height: 350px;
+    opacity: 0.2;
+    padding: 0px 2px 0px 2px;
+    transition: transform 2s;
+}
+.images .small-images .small-2:hover{
+    opacity: 1;
+    /* transform: scale(1.3); */
+}
+.images .small-images{
+    position: relative;
+}
+.transperant-text-two{
+    position: absolute;
+    top: 22%;
+    left: 45%;
+    font-size: 25px;
+}
+.transperant-text-three{
+    position: absolute;
+    bottom: 22%;
+    left: 33%;
+    font-size: 25px;
+}
+/* .section3done */
+.section-4{
+    background-image: url(./bg-2.webp);
+    background-attachment: fixed;
+    color: white;
+}
+.section-4 h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.section-4 .content{
+    padding: 100px 100px 500px 100px;
+}
+.section-4 p{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.section-4 .content .btn-1{
+    text-align: center;
+}
+.section-4 button{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.section-4  button:hover{
+    background-color: black;
+    border: none;
+}
+/* .section-4done */
+.section-5{
+    display: flex;
+    width: 100%;
+}
+
+.section-5 .left-half {
+    width: 50%;
+    height: 700px;
+}
+.section-5 .left-half img{
+    width: 100;
+    height: 100%;
+}
+.section-5 .right-half {
+    width: 50%;
+    height: 700px;
+    background-color:chocolate;
+  }
+.section-5 .right-half .mainlogo-image{
+    width: 60px;
+    height: 80px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.section-5 .right-half .section-5-logos{
+    display: flex;
+    text-align: center;
+   }
+.section-5 .right-half .content{
+    padding-top: 120px;
+    padding-left: 250px;
+}
+.section-5 .right-half .content button{
+    width: 150px;
+    height: 30px;
+    background-color: chocolate;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.section-5 .right-half .content button:hover{
+    background-color: brown;
+    border: 1px solid  brown;
+}
+
+/* .section-5done */
+.section-6{
+    padding: 30px ;
+    background-color: darkgrey;
+}
+.section-6 .section-6-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.section-6 .section-6-heading p{
+    margin: 0px;
+    font-size: 20px;
+}
+.section-6 .section-6-heading h1{
+    margin: 0px;
+}
+.section-6 .section-6-heading button{
+    width: 100px;
+    height: 50px;
+    border: 1px solid transparent;
+    background-color: chocolate;
+   color: white;
+   border-radius: 5px;
+   margin-right: 30px;
+}
+.section-6 .section-6-heading button:hover{
+    background-color: olive;
+}
+.section-6 .sub-divisions{
+    display: flex;
+    justify-content: space-around;
+}
+.section-6 .sub-divisions img{
+    width: 450px;
+    height: 300px;
+}
+.section-6 .sub-divisions .time{
+    font-size: 10px;
+    padding: 20px 0px;
+}
+.section-6 .sub-divisions .sub-heading{
+    font-size: 20px;
+}
+.section-6 .sub-divisions .sub-heading:hover{
+    color: chocolate;
+}
+.section-6 .sub-divisions .matter{
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+.section-6 .sub-divisions .matter:hover{
+    color: chocolate;
+}
+.section-6 .sub-divisions .small-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-6 .sub-divisions .small-icons img{
+    width: 12px;
+    height: 12px;
+}
+.section-6 .sub-divisions .small-icons .chat{
+    padding-left: 15px;
+}
+/* .section-6 done */
+.section-7{
+    background-color: olive;
+}
+.section-7 .first-line{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-7 .first-line .first-line-images{
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+}
+.section-7 img{
+    width: 220px;
+    height: 200px;
+    transition: transform  2s;
+}
+.section-7 img:hover{
+transform: scale(1.3);
+opacity: 0.5;
+}
+.section-7 h1{
+    color: WHITE;
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+    margin: 0px;
+}
+.section-7 .second-line{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 0px 30px 0px ;
+}
+.section-7 .second-line .second-line-1{
+    overflow: hidden;
+    margin-left: 218px;
+    width: 215px;
+    height: 200px;
+}
+.section-7 .second-line .second-line-2{
+    margin-right: 215px;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+}
+.section-7 .learnmore-button{
+
+    text-align: center;
+    padding-bottom: 40px;
+}
+.section-7 button{
+       width: 100px;
+       height: 30px; 
+       color: white;
+       border: 1px solid white;
+       background-color: olive;
+       border-radius: 5px;
+}
+.section-7 button:hover{
+    background-color: black;
+    color: grey;
+    border: 1px solid black;
+}
+
+/* .section-7 done */
+
+.section-8{
+    background-image: url(./bg-3.webp);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding: 150px 200px;
+}
+.section-8 h1{
+    font-size: 50px;
+}
+.section-8 .textfor-input{
+   
+    font-size: 15px;
+   
+}
+.section-8 input{
+    width: 50%;
+    height: 30px;
+    background-color: black;
+    border: 1px solid wheat;
+}
+.section-8 input:hover{
+    border: 2px solid white;
+}
+.section-8 button{
+    width: 100px;
+    height: 35px;
+    background-color: chocolate;
+    color: white;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+}
+.section-8 button:hover{
+    background-color: olive;
+    border: 1px solid olive;
+}
+
+/* .section-8 done */
+
+.footer{
+    background: black;
+    padding: 0px 30px 0px 30px;
+}
+.footer .footer-image{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+.footer .footer-image img{
+    width: 60px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 1px solid white;
+}
+.footer .footer-2 .footer-2-matter{
+    display: flex;
+    color:white;
+    justify-content: space-around;
+}
+.footer .footer-2 .footer-2-matter li{
+    list-style-type: none;
+}
+.footer .footer-2 .footer-2-matter li:hover{
+    color: green;
+    cursor: pointer;
+}
+.footer .footer-2 .footer-2-matter h3{
+    padding-left: 40px;
+}
+.footer {
+    margin: 0px;
+    padding: 30px;
+}
+.footer .footer-2{
+    padding:30px 0px
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:540px){
+    
+
+.Banner .navbar .left-bar li {
+    padding: 5px 5px;
+    font-size: 11px;
+}
+.Banner .mainheading h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.Banner .navbar .right-bar .login button {
+    justify-content: space-evenly;
+    display: flex;
+    background-color: transparent;
+    color: white;
+    padding: 4px 10px 3px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    align-items: center;
+}
+.Banner .navbar .right-bar .search {
+    margin-left: 10px;
+    background-color: transparent;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.section-2 {
+    background-color: lightgray;
+    padding-bottom: 30px;
+}
+.section-2 .heading-2 h1 {
+    font-size: 30px;
+}
+.section-5 .right-half .content h1{
+    margin: 20px;
+    font-size: 25px;
+}
+.section-5 .right-half .content p{
+    font-size: 15px;
+}
+.section-6 .section-6-heading p {
+    margin: 0px;
+    font-size: 15px;
+}
+.section-6 .section-6-heading h1 {
+    margin: 0px;
+    font-size: 30px;
+}
+.section-6 .section-6-heading button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid transparent;
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.section-7 h1 {
+    color: WHITE;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px!important;
+    margin: 0px;
+}
+}
+
+@media screen and (min-width:320px) and (max-width: 768px){
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: red;
+            color: white;
+            font-size: 15px;
+            width: 100%;
+        }
+            body{
+                margin: 0px;
+            }
+            .Banner .navbar {
+                display: block;
+                justify-content: space-between;
+                padding: 20px;
+                align-items: center;
+            }
+            .Banner .navbar .left-bar {
+                display: flex;
+                flex-wrap: wrap;
+                list-style-type: none;
+                border: 1px solid gray;
+                background-color: transparent;
+                color: white;
+                padding: 0px;
+                justify-content: space-around;
+            }
+            .Banner .navbar .mainlogo-image {
+                width: 60px;
+                height: 80px;
+                justify-content: center;
+                margin-left: 42%;
+            }
+            .Banner .mainheading h1 {
+                font-size: 35px;
+                text-align: center;
+                color: white;
+            }
+            .Banner .mainheading .btn{
+                text-align: center;
+            }
+            .Banner .mainheading .shopplants-button {
+                padding: 15px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 5px;
+                color: white;
+            }
+            .section-2 .selling .image-top .name-on-image {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                padding: 2px 10px;
+                border: 1px solid olive;
+                background-color: darkolivegreen;
+                color: white;
+                font-size: 12px;
+            }
+            .section-2 .heading-2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                padding-left: 20px;
+            }
+            .section-2 .heading-2 h1 {
+                font-size: 30px;
+                margin: 0px;
+            }
+            .section-2 .heading-2 button {
+                width: 100px;
+                height: 40px;
+                background-color: chocolate;
+                color: white;
+                border: 2px solid chocolate;
+                border-radius: 8px;
+                margin-top: 10px;
+            }
+            .section-2 .selling {
+                display: flex;;
+            flex-wrap: wrap;
+           }
+           .section-2 .selling .image-top {
+            position: relative;
+            margin-top: 30px;
+        }
+            .images {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }.images .big-images .bigone {
+                width: 100%;
+                height: 100%;
+                opacity: 0.5;
+                transition: transform 5s;
+                }
+                .images .small-images .small-1 {
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.2;
+                    padding: 0px 2px 0px 2px;
+                    transition: transform 2s;
+                }
+                .images .small-images .small-2 {
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.2;
+                    padding: 0px 2px 0px 2px;
+                    transition: transform 2s;
+                }
+                .transperant-text-one {
+                    position: absolute;
+                    top: 45%;
+                    left: 40%;
+                    font-size: 20px;
+                }
+                .transperant-text-two {
+                    position: absolute;
+                    top: 23%;
+                    left: 41%;
+                    font-size: 20px;
+                }
+                .transperant-text-three {
+                    position: absolute;
+                    bottom: 23%;
+                    left: 30%;
+                    font-size: 20px;
+                }
+                .section-4 .content {
+                    padding: 20px 0px 20px 0px;
+                }
+                .section-4 h1 {
+                    text-align: center;
+                    font-size: 30px;
+                    margin: 0px;
+                    padding-bottom: 20px;
+                }
+                .section-4 p {
+                    text-align: center;
+                    padding-bottom: 20px;
+                    font-size: 12px;
+                }
+                .section-4 .content .btn-1 {
+                    text-align: center;
+                }
+                .section-4 button {
+                    width: 20%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border: 1px solid white;
+                    background-color: transparent;
+                    color: white;
+                }
+                .section-5 {
+                    display: block;
+                    width: 100%;
+                }
+                .section-5 .left-half {
+                    width: 100%;
+                    height: 100%;
+                }
+                .section-5 .left-half img {
+                    width: 100;
+                    height: 100%;
+                    width: 100%;
+                }
+                .section-5 .right-half {
+                    width: 100%;
+                    height: 100%;
+                    background-color: chocolate;
+                }
+                .section-5 .right-half .content {
+                    text-align: center;
+                    padding: 10px;
+                }
+                    .section-5 .right-half .section-5-logos {
+                        display: flex;
+                        justify-content: center;
+                }
+                    .section-5 .right-half .content p{
+                        font-size: 20px;
+                    }
+                    .section-6 .section-6-heading {
+                        display: block;
+                        padding-bottom: 20px;
+                    }
+                    .section-6 .sub-divisions {
+                        display: block;
+                    }
+                    .section-6 .section-6-heading button {
+                        width: 100px;
+                        height: 30px;
+                        border: 1px solid transparent;
+                        background-color: chocolate;
+                        color: white;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                    }
+                    .section-6 .sub-divisions img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .section-6 .sub-divisions .matter {
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid black;
+                    }
+                    .section-6 .sub-divisions .small-icons {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-bottom: 30px;
+                    }
+                    .section-7 h1 {
+                        color: WHITE;
+                        text-align: center;
+                        padding: 20px;
+                        font-size: 40px;
+                        margin: 0px;
+                    }
+                    .section-7 .first-line {
+                        display: block;
+                    }
+                    .section-7 .first-line .first-line-images {
+                        width: 100%;
+                        height: 100%;
+                        overflow: hidden;
+                    }
+                    .section-7 img {
+                        width: 100%;
+                        height: 100%;
+                        transition: transform 2s;
+                    }
+                    .section-7 .second-line {
+                        display: block;
+                        justify-content: space-around;
+                        padding: 20px 0px 30px 0px;
+                    }
+                    .section-7 .second-line .second-line-1 {
+                        overflow: hidden;
+                        width: 100%;
+                        height: 100%;
+                        margin: 0px;
+                    }
+                    .section-7 .second-line .second-line-2 {
+                        width: 100%;
+                        height: 100%;
+                        overflow: hidden;
+                    }
+                    .section-7 .learnmore-button {
+                        text-align: center;
+                        padding-bottom: 30px;
+                    }
+                    .section-8 {
+                        background-image: url(./bg-3.webp);
+                        background-attachment: fixed;
+                        color: white;
+                        text-align: center;
+                        padding: 50px;
+                    }
+                    .section-8 h1 {
+                        font-size: 25px;
+                    }
+                    .section-8 input {
+                        width: 100%;
+                        height: 30px;
+                        background-color: black;
+                        border: 1px solid wheat;
+                    }
+                    .section-8 button {
+                        width: 40%;
+                        background-color: chocolate;
+                        color: white;
+                        border: 1px solid chocolate;
+                        border-radius: 5px;
+                        margin-top: 20px;
+                    }
+                    .footer .footer-image {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .footer .footer-2 .footer-2-matter {
+                        display: flex;
+                        color: white;
+                        justify-content: space-around;
+                        flex-wrap: wrap;
+                    }
+                }
+               @media screen and (min-width:768px) and (max-width:868px){
+                .Banner .navbar .mainlogo-image {
+                    width: 60px;
+                    height: 80px;
+                    display: none;
+                }
+                .section-2 .selling .image-top .name-on-image {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    padding: 2px 10px;
+                    border: 1px solid olive;
+                    background-color: darkolivegreen;
+                    color: white;
+                    font-size: 12px;
+                }
+               }
+               @media screen and (min-width:768px) and (max-width: 1200px){
+                    .header{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: red;
+                        color: white;
+                        font-size: 15px;
+                        width: 100%;}
+                        body{
+                            margin: 0px;
+                        }
+                        .Banner .mainheading .btn{
+                            text-align: center;
+                        }
+                        .Banner .mainheading h1 {
+                            font-size: 45px;
+                            text-align: center;
+                            color: white;
+                        }
+                        .Banner .mainheading .shopplants-button {
+                            padding: 15px;
+                            text-align: center;
+                            background-color: transparent;
+                            border: 1px solid white;
+                            border-radius: 5px;
+                            color: white;
+                            
+                        }
+                        .section-2 .selling .image-top .name-on-image {
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            padding: 2px 10px;
+                            border: 1px solid olive;
+                            background-color: darkolivegreen;
+                            color: white;
+                            font-size: 12px;
+                        }
+                        .section-2 .heading-2 {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            padding-left: 20px;
+                        }
+
+                        .section-2 .heading-2 h1 {
+                            font-size: 40px;
+                        }
+                        .section-2 .selling {
+                            display: flex;;
+                        flex-wrap: wrap;            }
+                        .images {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                        }.images .big-images .bigone {
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0.5;
+                            transition: transform 5s;
+                            }
+                            .images .small-images .small-1 {
+                                width: 100%;
+                                height: 100%;
+                                opacity: 0.2;
+                                padding: 0px 2px 0px 2px;
+                                transition: transform 2s;
+                            }
+                            .images .small-images .small-2 {
+                                width: 100%;
+                                height: 100%;
+                                opacity: 0.2;
+                                padding: 0px 2px 0px 2px;
+                                transition: transform 2s;
+                            }
+                            .transperant-text-one {
+                                position: absolute;
+                                top: 50%;
+                                left: 45%;
+                                font-size: 25px;
+                            }
+                            .transperant-text-two {
+                                position: absolute;
+                                top: 22%;
+                                left: 45%;
+                                font-size: 25px;
+                            }
+                            .transperant-text-three {
+                                position: absolute;
+                                bottom: 25%;
+                                left: 40%;
+                                font-size: 25px;
+                            }
+                            .section-4 .content {
+                                padding: 20px 0px 20px 0px;
+                            }
+                            .section-4 h1 {
+                                text-align: center;
+                                font-size: 40px;
+                                margin: 0px;
+                                padding-bottom: 20px;
+                            }
+                            .section-4 p {
+                                text-align: center;
+                                padding-bottom: 20px;
+                                font-size: 20px;
+                            }
+                            .section-4 .content .btn-1 {
+                                text-align: center;
+                            }
+                            .section-4 button {
+                                width: 20%;
+                                padding: 10px;
+                                border-radius: 5px;
+                                border: 1px solid white;
+                                background-color: transparent;
+                                color: white;
+                            }
+                            .section-5 {
+                                display: block;
+                                width: 100%;
+                            }
+                            .section-5 .left-half {
+                                width: 100%;
+                                height: 100%;
+                            }
+                            .section-5 .left-half img {
+                                width: 100;
+                                height: 100%;
+                                width: 100%;
+                            }
+                            .section-5 .right-half {
+                                width: 100%;
+                                height: 100%;
+                                background-color: chocolate;
+                            }
+                            .section-5 .right-half .content {
+                                text-align: center;
+                                padding: 10px;
+                            }
+                                .section-5 .right-half .section-5-logos {
+                                    display: flex;
+                                    justify-content: center;
+                            }
+                                .section-5 .right-half .content p{
+                                    font-size: 20px;
+                                }
+                                .section-6 .section-6-heading {
+                                    display: flex;
+                                    padding-bottom: 20px;
+                                }
+                                .section-6 .section-6-heading button {
+                                    width: 100px;
+                                    height: 50px;
+                                    border: 1px solid transparent;
+                                    background-color: chocolate;
+                                    color: white;
+                                    border-radius: 5px;
+                                    margin-top: 10px;
+                                }
+                                .section-6 .sub-divisions {
+                                    display: block;
+                                }
+                                .section-6 .sub-divisions img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                                .section-6 .sub-divisions .matter {
+                                    padding-bottom: 30px;
+                                    border-bottom: 1px solid black;
+                                }
+                                .section-6 .sub-divisions .small-icons {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    padding-bottom: 30px;
+                                }
+                                .section-7 h1 {
+                                    color: WHITE;
+                                    text-align: center;
+                                    padding: 20px;
+                                    font-size: 40px;
+                                    margin: 0px;
+                                }
+                                .section-7 .first-line {
+                                    display: block;
+                                }
+                                .section-7 .first-line .first-line-images {
+                                    width: 100%;
+                                    height: 100%;
+                                    overflow: hidden;
+                                }
+                                .section-7 img {
+                                    width: 100%;
+                                    height: 100%;
+                                    transition: transform 2s;
+                                }
+                                .section-7 .second-line {
+                                    display: block;
+                                    justify-content: space-around;
+                                    padding: 20px 0px 30px 0px;
+                                }
+                                .section-7 .second-line .second-line-1 {
+                                    overflow: hidden;
+                                    width: 100%;
+                                    height: 100%;
+                                    margin: 0px;
+                                }
+                                .section-7 .second-line .second-line-2 {
+                                    width: 100%;
+                                    height: 100%;
+                                    overflow: hidden;
+                                }
+                                .section-7 .learnmore-button {
+                                    text-align: center;
+                                    padding-bottom: 30px;
+                                }
+                                .section-8 {
+                                    background-image: url(./bg-3.webp);
+                                    background-attachment: fixed;
+                                    color: white;
+                                    text-align: center;
+                                    padding: 50px;
+                                }
+                                .section-8 h1 {
+                                    font-size: 25px;
+                                }
+                                .section-8 input {
+                                    width: 100%;
+                                    height: 30px;
+                                    background-color: black;
+                                    border: 1px solid wheat;
+                                }
+                                .section-8 button {
+                                    width: 40%;
+                                    background-color: chocolate;
+                                    color: white;
+                                    border: 1px solid chocolate;
+                                    border-radius: 5px;
+                                    margin-top: 20px;
+                                }
+                                .footer .footer-image {
+                                    display: flex;
+                                    justify-content: center;
+                                }
+                                .footer .footer-2 .footer-2-matter {
+                                    display: flex;
+                                    color: white;
+                                    justify-content: space-around;
+                                    flex-wrap: wrap;
+                                }
+                            }
+                  
+
+    
+    
+
+
+
+      
+        
+       
+
+       
+        
+     
+      
+       
+     
+      
+      
+      
+           
+
+      
+    
+       
+      
+      
+      
+      
+       
+        
+       
+      
+      
+      
+    
+       
+      
+       
+      
+      
+      
+       
+      
+       
+      
+       
+   
